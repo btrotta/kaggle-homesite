@@ -11,3 +11,5 @@ identifier rather than a genuine feature.
 
 We use relatively large values for the gamma and lambda regularisation parameters, which reduces the impact of irrelevant features without
 the need to manually test and exclude these. We also use a small eta and large number of rounds.
+
+The code is written in Python 2.7. It requires pandas, numpy, sklearn, and xgboost packages.
